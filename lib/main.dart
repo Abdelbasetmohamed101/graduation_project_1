@@ -32,8 +32,8 @@ class _MyAppState extends State<MyApp> {
         floatingActionButton: FloatingActionButton(
             child: const Icon(Icons.share),
             onPressed: () {
-              Share.share('check out my website https://example.com',
-                  subject: 'Look what I made!');
+              // Share.share('check out my website https://example.com',
+              //     subject: 'Look what I made!');
             }),
         appBar: AppBar(
             backgroundColor: Colors.green,
